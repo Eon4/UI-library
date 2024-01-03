@@ -1,0 +1,30 @@
+
+.HomepageContainer {
+    text-align: center; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+  
+    h2 {
+color: rgb(166, 166, 166);    }
+  
+    p {
+color: white;    
+}
+  
+    h3 {
+color: white;      
+margin-top: 20px;
+    }
+  
+    .LatestArticlesLink {
+      color: #666666; 
+      text-decoration: none;
+      transition: color 0.3s ease-in-out; 
+  
+      &:hover {
+        color: #007bff; 
+      }
+    }
+  }
+  
