@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 // import style from "../../Pages/About/about.module.scss";
 
 export const Contact = () => {
@@ -9,7 +8,7 @@ export const Contact = () => {
     <>
       <h1 >Contact Us</h1>
 
-      <p>Lalalaa about us here</p>
+      <p>Lalalaa contact us here</p>
   
     </>
   );

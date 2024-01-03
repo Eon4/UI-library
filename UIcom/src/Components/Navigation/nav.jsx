@@ -1,5 +1,3 @@
-// Navigation.jsx
-
 import React from 'react';
 import style from '../Navigation/nav.module.scss';
 import { Link } from 'react-router-dom';
@@ -8,7 +6,7 @@ const Navigation = () => {
   return (
     <nav className={style.topnavigation}>
       <div className={style.logoContainer}>
-        <h1 className={style.logo}>Navn her</h1>
+        <h1 className={style.logo}>UI Library</h1>
       </div>
 
       <ul>
