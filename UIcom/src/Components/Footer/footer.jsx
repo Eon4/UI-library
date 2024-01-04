@@ -3,31 +3,30 @@ import style from "../Footer/footer.module.scss";
 export const Footer = () => {
   return (
     <footer>
-      <div className={style.footer}>
+      <div className={style.footerStyle}>
         <section className={style.adresse}>
-          <h4>Adresse</h4>
-          <p>Intet nyt - Godt nyt AsP</p>
+          <h4>Address</h4>
+          <p>Olympus News Agency</p>
           <p>
-            Tulipanvej 232 <br /> 7320 <br /> Valby Øster
+            Mount Olympus <br /> 12345 <br /> Greece
           </p>
         </section>
         <section className={style.links}>
           <h4>Links</h4>
-          <a href="#">vikanweb.dk</a>
-    
+          <a href="#">olympusweb.com</a>
         </section>
         <section className={style.politik}>
-          <h4>Politik</h4>
-          <a href="#">Privatlivspolitik</a>
-          <a href="#">Cookiepolitik</a>
-          <a href="#">Købsinformation</a>
-          <a href="#">Delingspolitik</a>
+          <h4>Policy</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Purchase Information</a>
+          <a href="#">Sharing Policy</a>
         </section>
         <section className={style.kontakt}>
-          <h4>Kontakt</h4>
+          <h4>Contact</h4>
           <p>
-            Email: somenews@nyhed.dk <br />
-            Telefon: 23232323 <br />
+            Email: news@olympus.com <br />
+            Phone: 23232323 <br />
             Fax: 123123-333
           </p>
         </section>

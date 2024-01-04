@@ -1,5 +1,5 @@
 
-import greekHeaderImage from "../../assets/img/greekheader.jpg";
+import HeaderImg from "../../assets/img/greekheader.jpg";
 import style from '../Header/Header.module.scss';
 
 
@@ -8,12 +8,13 @@ import React from 'react';
 
 const HeaderHero = () => {
   return (
-    <div className={style.heroContainer}>
-            {/* <HeaderHero backgroundImage={greekHeaderImage} /> */}
+    <header>
 
+            <img className={style.Headerimg} src={HeaderImg} alt="header" />
       <h1>Welcome to Our Website</h1>
       <p>Explore our amazing content and discover something new!</p>
-    </div>
+      </header>
+
   );
 };
 

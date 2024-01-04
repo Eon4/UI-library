@@ -8,7 +8,7 @@ footer {
   left: 0; /* Align it to the left */
   right: 0; /* Align it to the right */
   
-  .footer {
+  .footerStyle {
     max-width: 1230px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -17,7 +17,8 @@ footer {
     margin-top: 20px;
     
     .links,
-    .politik {
+    .politik,
+    .kontakt {
       display: flex;
       flex-direction: column;
     }
@@ -32,6 +33,8 @@ footer {
       font-size: 1rem;
       font-family: var(--FontRoboto);
       color: var(--Black);
+      text-align: left;
+
     }
     
     a {

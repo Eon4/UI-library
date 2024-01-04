@@ -8,9 +8,9 @@ const Homepage = () => {
     <div>
       <HeaderHero />
       <div className={style.HomepageContainer}>
-        <p>
+        {/* <p>
           Lalala
-        </p>
+        </p> */}
       </div>
     </div>
   );
