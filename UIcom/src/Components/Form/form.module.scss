@@ -1,0 +1,67 @@
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Cool grayish color, adjust as needed */
+  }
+  
+  form {
+    background-color: rgb(142, 142, 142);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the form on the page */
+    background: url('../../../src/assets/img/greek04.jpg') center center/cover no-repeat;
+
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ffffff; /* Dark grayish color for the heading, adjust as needed */
+  }
+  
+  button {
+    background-color: #333; /* Dark grayish color for the button, adjust as needed */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .formInputContainer {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  
+    label {
+      margin-bottom: 5px;
+      color: #ffffff; /* Dark grayish color for the label, adjust as needed */
+    }
+  
+    input {
+      padding: 10px;
+      border: 1px solid #ccc; /* Light grayish border, adjust as needed */
+      border-radius: 4px;
+      transition: border-color 0.3s ease-in-out;
+    }
+  
+    input:invalid[focused="true"] {
+      border-color: red;
+    }
+  
+    span {
+      font-size: 12px;
+      padding: 3px;
+      color: red;
+      display: none;
+    }
+  
+    input:invalid[focused="true"] ~ span {
+      display: block;
+    }
+  }
+  
