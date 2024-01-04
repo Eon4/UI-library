@@ -26,7 +26,7 @@ export const Footer = () => {
         <section className={style.kontakt}>
           <h4>Kontakt</h4>
           <p>
-            Email: ingn@nyhed.dk <br />
+            Email: somenews@nyhed.dk <br />
             Telefon: 23232323 <br />
             Fax: 123123-333
           </p>

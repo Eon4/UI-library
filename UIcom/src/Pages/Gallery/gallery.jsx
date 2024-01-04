@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Slider } from "../../Components/Slider/Slider";
+
 // import style from './gallery.module.scss';
 
 export const Gallery = () => {
@@ -15,8 +17,12 @@ export const Gallery = () => {
 
   return (
     <div>
-    <h2>Gallery here</h2>
+    {/* <h2>Gallery here</h2> */}
+
+    <Slider />
+
     </div>
+    
   );
 };
 

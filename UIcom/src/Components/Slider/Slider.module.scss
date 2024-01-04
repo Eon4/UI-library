@@ -1,0 +1,60 @@
+.slider {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px; 
+    position: relative;
+    z-index: 1;
+  
+    img {
+      width: 700px;
+      height: 900px;
+      object-fit: cover; 
+    }
+  
+    section {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      margin: auto;
+      bottom: 200%;
+      gap: 1%;
+      span {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white;
+      }
+      span::after {
+        content: " ";
+      }
+    }
+    div {
+      position: absolute;
+      top: 40%;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 12fr 1fr;
+      align-items: center;
+      h1 {
+        text-align: center;
+        color: white;
+        font-style: italic;
+        font-family: "Lobster Two", sans-serif;
+        font-size: 3rem;
+      }
+      button {
+        background-color: inherit;
+        visibility: hidden;
+        svg {
+          visibility: visible;
+          color: #ffffff;
+          width: 50%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  

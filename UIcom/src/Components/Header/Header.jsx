@@ -1,18 +1,20 @@
 
-
-import { useQuery } from "@tanstack/react-query";
-import { request } from "graphql-request";
-import { getHeader } from "../../Queries/getHeader";
-import style from '../Header/header.module.scss';
+import greekHeaderImage from "../../assets/img/greekheader.jpg";
+import style from '../Header/Header.module.scss';
 
 
-export const Header = () => {
+// HeaderHero.jsx
+import React from 'react';
 
-
+const HeaderHero = () => {
   return (
-    <header>
-      {/* <h2>{data.headers[0].headerTitle}</h2> */}
-      <img className={style.doggyHeader} src={data.headers[0].image.url} alt="" />
-    </header>
+    <div className={style.heroContainer}>
+            {/* <HeaderHero backgroundImage={greekHeaderImage} /> */}
+
+      <h1>Welcome to Our Website</h1>
+      <p>Explore our amazing content and discover something new!</p>
+    </div>
   );
 };
+
+export default HeaderHero;

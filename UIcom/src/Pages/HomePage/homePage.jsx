@@ -1,17 +1,19 @@
+// Homepage.jsx
 import React from 'react';
-import { Link } from 'react-router-dom';
+import HeaderHero from '../../Components/Header/Header';
 import style from '../../Pages/HomePage/homePage.module.scss';
 
 const Homepage = () => {
   return (
-    <div className={style.HomepageContainer}>
-      <h2>Welcome to Our website</h2>
-      <p>
-      lalala
-      </p>
+    <div>
+      <HeaderHero />
+      <div className={style.HomepageContainer}>
+        <p>
+          Lalala
+        </p>
+      </div>
     </div>
   );
 };
 
 export default Homepage;
-
