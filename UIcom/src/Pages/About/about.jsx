@@ -1,6 +1,7 @@
 import React from 'react';
 import { Accordion } from "../../Components/Accordion/accordion"
 
+
 // import style from "../../Pages/About/about.module.scss";
 
 export const AboutPage = () => {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Data } from "./accordionData";
+import { Data } from "./AccordionData";
 import style from "./accordion.module.scss";
 
 export const Accordion = () => {

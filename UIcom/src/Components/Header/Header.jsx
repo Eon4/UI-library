@@ -12,7 +12,7 @@ const HeaderHero = () => {
 
             <img className={style.Headerimg} src={HeaderImg} alt="header" />
       <h1>Welcome to Our Website</h1>
-      <p>Explore our amazing content and discover something new!</p>
+      <p>Expediam mirabilem nostram continentiam et aliquid novi inveniunt</p>
       </header>
 
   );
