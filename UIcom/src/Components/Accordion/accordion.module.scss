@@ -1,6 +1,6 @@
 .accordionWrapper {
     display: flex;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     justify-content: center;
     text-align: center;
@@ -15,6 +15,11 @@
       }
       .accordionContent.accordionShow {
         max-height: 9999px;
+        
+      }
+      p{
+        font-size: 20px;
+
       }
     }
   }

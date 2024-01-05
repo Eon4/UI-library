@@ -3,10 +3,10 @@ footer {
   display: flex;
   justify-content: center;
   background-color: var(--Snow);
-  position: fixed; /* Use fixed positioning */
-  bottom: 0; /* Position it at the bottom */
-  left: 0; /* Align it to the left */
-  right: 0; /* Align it to the right */
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
   
   .footerStyle {
     max-width: 1230px;
@@ -25,7 +25,7 @@ footer {
     
     h4 {
       font-size: 1rem;
-      padding-bottom: 23px;
+      padding-bottom: 10px;
       font-family: var(--FontRoboto);
     }
     
