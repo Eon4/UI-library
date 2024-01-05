@@ -1,0 +1,20 @@
+.accordionWrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+    .accordionContainer {
+      width: 500px;
+      .accorrdionTitle{
+        cursor: pointer;
+      }
+      .accordionContent {
+        overflow: hidden;
+        max-height: 0;
+      }
+      .accordionContent.accordionShow {
+        max-height: 9999px;
+      }
+    }
+  }
